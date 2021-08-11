@@ -147,10 +147,16 @@ main {
     height: 46px;
     width: 100%;
     padding: 0 8px 0 16px;
-    padding-left: 40px;
+    padding-left: 45px;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     font-size: 16px;
+}
+
+.input-wrap input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);s
 }
 
 .input-wrap input:focus {
